@@ -10,6 +10,9 @@
   #projects {
     height: fit-content;
   }
+  #leetcard {
+    width: max-content;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -30,6 +33,10 @@
   .arrow {
     display: none;
   }
+  #leetcard {
+    width: 400px;
+  }
+
   section,
   .section-container {
     height: fit-content;
@@ -56,6 +63,7 @@
     height: 83vh;
     margin-bottom: 0;
   }
+
   article {
     font-size: 1rem;
   }

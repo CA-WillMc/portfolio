@@ -12,7 +12,7 @@
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">William McAllister</div>
+        <div class="logo">Welcome to my portfolio</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -23,7 +23,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">William McAllister</div>
+        <div class="logo">Welcome to my portfolio</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -40,14 +40,14 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.jpg" alt="John Doe profile picture" />
+            <img id="profile-pic" src="./assets/profile-pic.jpg" alt="John Doe profile picture" />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">William McAllister</h1>
             <p class="section__text__p2">Computer Science Student</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV_WilliamMcAllister (2).pdf')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -56,9 +56,11 @@
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-                    onclick="location.href='https://linkedin.com/'" />
+                    onclick="location.href='https://www.linkedin.com/in/william-mcallister-20771926a/'" />
                 <img src="./assets/github.png" alt="My Github profile" class="icon"
-                    onclick="location.href='https://github.com/'" />
+                    onclick="location.href='https://github.com/CA-WillMc'" />
+                <img src="./assets/chess.png" alt="My Chess.com profile" class="icon"
+                    onclick="location.href='https://www.chess.com/member/freelywilly'" />
             </div>
         </div>
     </section>
@@ -84,12 +86,16 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum quod voluptate
-                        exercitationem nobis, nihil esse debitis maxime facere minus sint
-                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                        reiciendis ea magnam? Nulla, impedit fuga!
+                        During the pandemic, I decided it was time for a change. I traded my daily hours of guitar
+                        practice for studying computer science. Since Fall 2023, I have fallen in love with the
+                        challenges and community of the field. With my musical background, I have grown to welcome all
+                        learning opportunities and value collaborative work. This desire to improve and problem solve is
+                        also present in my hobbies. I find that rock climbing, playing chess, storytelling, and tutoring
+                        keep my mind sharp and creative.
+                        <br>
+                        <br>
+                        However, my greatest strength is my positive outlook on life, which lets me thrive in any
+                        environment.
                     </p>
                 </div>
             </div>
@@ -102,7 +108,7 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Coding</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
@@ -121,65 +127,39 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>SASS</h3>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Material UI</h3>
+                                <h3>SQL</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>PostgreSQL</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
+                    <h2 class="experience-sub-title">Algorithms</h2>
+                    <img id="leetcard"
+                        src="https://leetcard.jacoblin.cool/WilliamMc?theme=light&font=Poppins&ext=heatmap"
+                        alt="LeetCode Stats">
                 </div>
             </div>
         </div>
@@ -194,42 +174,39 @@
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Time Logger</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/jfmorel/inf1163-TimeLog'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
+
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Email</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/jac267/ProjetWebPropre'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
+
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <h2 class="experience-sub-title project-title">Smart Parking</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/CA-WillMc/Recherche-de-stationnement-'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
+
                     </div>
                 </div>
             </div>
@@ -248,6 +225,10 @@
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
                 <p><a href="https://www.linkedin.com">LinkedIn</a></p>
             </div>
+            <div class="contact-info-container">
+                <img src="./assets/chess.png" alt="Chess icon" class="icon contact-icon" />
+                <p><a href="https://www.chess.com/member/freelywilly">Chess.com</a></p>
+            </div>
         </div>
     </section>
     <footer>
@@ -261,7 +242,7 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+        <p>Copyright &#169; 2024 William McAllister. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
