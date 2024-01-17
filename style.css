@@ -53,10 +53,7 @@ a {
 }
 
 a:hover {
-  color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  color: white;
 }
 
 .logo {
@@ -94,11 +91,14 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+.hamburger-icon:hover span {
+  background-color: white;
+}
+
 .menu-links {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -113,6 +113,10 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+}
+
+.menu-links :hover {
+  color: white;
 }
 
 .menu-links li {
