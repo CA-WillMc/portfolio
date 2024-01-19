@@ -9,11 +9,14 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #dedaf4;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.scroll-fade {
+  background-color: green; /* Initial color */
 }
 
 p {
@@ -186,6 +189,7 @@ section {
 
 #profile-pic {
   border-radius: 5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section__pic-container {
@@ -307,6 +311,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .arrow {
@@ -323,6 +328,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-container {
@@ -402,6 +408,17 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: transform 0.6s ease-in-out;
+}
+.color-container:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.color-container:not(:hover) {
+  transform: scale(0.8);
+  opacity: 0.5;
 }
 
 .project-img {
